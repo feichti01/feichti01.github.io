@@ -1,0 +1,20 @@
+{
+  "name": "FEICHTIQ",
+  "short_name": "FEICHTIQ",
+  "description": "SOFTWARE WITH DEPTH.",
+  "icons": [
+    {
+      "src": "/web-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/web-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#081220",
+  "background_color": "#081220",
+  "display": "standalone"
+}

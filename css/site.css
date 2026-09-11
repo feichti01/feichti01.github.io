@@ -1,0 +1,66 @@
+/* feichti01.github.io — FEICHTIQ corporate design, mirrored from www.feichtiq.com (scripts/build_site.py).
+   Sora self-hosted (OFL). No third-party requests, no scripts, no cookies. */
+@font-face{font-family:"Sora";src:url(/fonts/Sora-var.woff2) format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+:root{--navy:#081220;--ocean:#1E2937;--steel:#334155;--azure:#5D7FA0;--ice:#E6E9EC;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;font-family:"Sora","Inter","SF Pro Display","Segoe UI",system-ui,sans-serif;color:var(--navy);background:var(--white);-webkit-font-smoothing:antialiased;line-height:1.6;overflow-x:hidden}
+a{color:inherit}img{max-width:100%;height:auto;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 clamp(20px,5vw,24px);padding-left:max(clamp(20px,5vw,24px),env(safe-area-inset-left));padding-right:max(clamp(20px,5vw,24px),env(safe-area-inset-right))}
+.eyebrow{font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:var(--azure);font-weight:500;margin:0 0 .6rem}
+h1,h2,h3{font-weight:600;line-height:1.15;margin:0 0 .5em}
+h1{font-size:clamp(1.75rem,6vw,2.5rem)}h2{font-size:clamp(1.3rem,4.5vw,1.6rem);margin-top:0}h3{font-size:1.05rem;margin:0 0 .3rem}
+p{margin:0 0 1rem}
+.btn{display:inline-block;padding:.8rem 1.5rem;min-height:44px;border:1px solid currentColor;border-radius:4px;text-decoration:none;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;font-weight:500;line-height:1.4}
+.btn:hover{background:rgba(255,255,255,.08)}
+.btn.solid{background:var(--navy);color:#fff;border-color:var(--navy)}.btn.solid:hover{background:var(--steel);border-color:var(--steel)}
+.btn.quiet{color:var(--steel)}.btn.quiet:hover{background:var(--ice)}
+section.block{padding:clamp(3rem,8vw,5rem) 0 0}
+section.block .lead{max-width:640px;color:var(--steel)}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.app{border:1px solid var(--ice);border-radius:8px;background:#fff;padding:clamp(18px,3vw,26px);display:flex;flex-direction:column;gap:.9rem}
+.app .head{display:flex;align-items:center;gap:16px}
+.app .icon{width:72px;height:72px;flex:0 0 72px;border-radius:16px;box-shadow:0 1px 0 rgba(8,18,32,.08),0 0 0 1px rgba(8,18,32,.06)}
+.app .head h3{margin:0}.app .head .sub{font-size:.8rem;color:var(--steel);letter-spacing:.06em;text-transform:uppercase}
+.app p{margin:0;font-size:.95rem}
+.app .tags{display:flex;flex-wrap:wrap;gap:6px}
+.app .tags span{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--steel);background:var(--ice);padding:.25rem .55rem;border-radius:3px}
+.app .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:.4rem}
+.app .actions .btn{font-size:.74rem;padding:.65rem 1rem}
+.links{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))}
+.links a{display:flex;flex-direction:column;gap:.2rem;min-height:44px;padding:1rem 1.1rem;border:1px solid var(--ice);border-radius:8px;text-decoration:none}
+.links a b{font-weight:600}.links a span{font-size:.85rem;color:var(--steel)}
+.links a:hover{border-color:var(--azure)}
+footer{margin-top:clamp(3rem,8vw,5rem);padding:2.5rem 0 max(2.5rem,env(safe-area-inset-bottom));border-top:1px solid var(--ice);font-size:.8rem;color:var(--steel)}
+footer .wrap{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem 20px}
+footer a{text-decoration:none;padding:.2rem 0}
+nav.top{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--ice);z-index:9}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px;padding-top:env(safe-area-inset-top)}
+nav.top img{height:clamp(22px,5.5vw,30px);width:auto}
+nav.top a{text-decoration:none;font-size:clamp(.68rem,2.2vw,.8rem);letter-spacing:.14em;text-transform:uppercase;margin-left:clamp(12px,3vw,22px);color:var(--steel)}
+.legal{max-width:760px}
+.legal h2{font-size:clamp(1.1rem,3.6vw,1.3rem);margin-top:2.6rem;padding-top:1.4rem;border-top:1px solid var(--ice)}
+.legal h2:first-of-type{border-top:0;padding-top:0}
+.legal ul{margin:0 0 1rem;padding-left:1.25rem}.legal li{margin-bottom:.4rem}
+.legal .lead{font-size:1.02rem;color:var(--steel)}
+.legal .stand{margin-top:2.5rem;font-size:.85rem;color:var(--steel)}
+.legal a{text-underline-offset:2px}
+/* hero — identical breakpoints and density switching to www.feichtiq.com */
+.hero{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;color:#fff;
+  padding:calc(4.5rem + env(safe-area-inset-top)) max(clamp(20px,6vw,24px),env(safe-area-inset-left)) calc(6.5rem + env(safe-area-inset-bottom));
+  background:var(--navy) url(/img/hero-768.jpg) center/cover no-repeat}
+@media(min-width:769px){.hero{background-image:url(/img/hero-1280.jpg)}}
+@media(min-width:1301px){.hero{background-image:url(/img/hero-1920.jpg)}}
+@media(max-width:768px) and (min-resolution:2dppx){.hero{background-image:url(/img/hero-1280.jpg)}}
+@media(min-width:769px) and (min-resolution:2dppx){.hero{background-image:url(/img/hero-1920.jpg)}}
+@media(min-width:1301px) and (min-resolution:1.5dppx){.hero{background-image:url(/img/hero-2560.jpg)}}
+.hero .logo{width:min(620px,84vw)}
+.hero .tri{margin:clamp(2rem,7vw,3.2rem) 0 0;display:flex;flex-wrap:wrap;justify-content:center;gap:.15em 0;
+  font-size:clamp(.62rem,2.3vw,.78rem);letter-spacing:.28em;text-transform:uppercase;color:var(--azure);font-weight:500}
+.hero .tri span+span::before{content:"|";margin:0 .9em;opacity:.55}
+.hero .cta{margin-top:clamp(2rem,6vw,2.8rem);display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.hero .at{position:absolute;left:0;right:0;bottom:calc(1.5rem + env(safe-area-inset-bottom));padding:0 20px;line-height:2;
+  font-size:clamp(.64rem,2.1vw,.72rem);letter-spacing:.18em;text-transform:uppercase;color:var(--azure);opacity:.85}
+.hero .at a{text-decoration:none;margin:0 .6em;display:inline-block;padding:.15rem 0}
+@media(max-width:520px){.hero .tri{flex-direction:column;gap:.55em}.hero .tri span+span::before{content:none}}
+@media(max-height:680px){.hero{padding-bottom:calc(2.5rem + env(safe-area-inset-bottom))}.hero .at{position:static;margin-top:2.5rem}}

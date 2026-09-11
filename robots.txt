@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://feichti01.github.io/sitemap.xml

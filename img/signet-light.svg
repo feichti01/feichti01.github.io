@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="38.5 -43.5 923 1044.5" width="923" height="1044.5">
+  <!-- FEICHTIQ signet / light — composed from approved masters by scripts/build_lockups.py; clearspace 2x included -->
+  <path id="q" fill="#334155" d="M729 807 L548.5 555 L620 555 L643.5 586 A137 137 0 1 0 564.5 621 L605 677.5 A200 200 0 1 1 682 636.5 L811.5 807 Z M530 738 H641.5 V752 H530 Z M578.5 787.5 H690 V801.5 H578.5 Z M627 837 H738.5 V851 H627 Z"/>
+  <path id="f" fill="#081220" d="M188.5 106.5 L558.5 106.5 L497 181.5 L263.5 181.5 L263.5 282.5 L451.5 282.5 L383.5 357.5 L263.5 357.5 L263.5 594.5 L188.5 540.5 Z"/>
+</svg>

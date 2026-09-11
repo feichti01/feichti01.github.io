@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- FEICHTIQ app icon — validated FQ signet only; background gradient Ocean Blue → Deep Navy (tokens) -->
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E2937"/><stop offset="1" stop-color="#081220"/></linearGradient></defs>
+  <rect x="0" y="0" width="64" height="64" fill="url(#bg)" rx="14.32"/>
+  <path id="q" transform="translate(-1.73 1.55) scale(0.06)" fill="#5D7FA0" d="M729 807 L548.5 555 L620 555 L643.5 586 A137 137 0 1 0 564.5 621 L605 677.5 A200 200 0 1 1 682 636.5 L811.5 807 Z M530 738 H641.5 V752 H530 Z M578.5 787.5 H690 V801.5 H578.5 Z M627 837 H738.5 V851 H627 Z"/>
+  <path id="f" transform="translate(-1.73 1.55) scale(0.06)" fill="#FFFFFF" d="M188.5 106.5 L558.5 106.5 L497 181.5 L263.5 181.5 L263.5 282.5 L451.5 282.5 L383.5 357.5 L263.5 357.5 L263.5 594.5 L188.5 540.5 Z"/>
+</svg>
