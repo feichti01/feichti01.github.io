@@ -64,3 +64,16 @@ nav.top a{text-decoration:none;font-size:clamp(.68rem,2.2vw,.8rem);letter-spacin
 .hero .at a{text-decoration:none;margin:0 .6em;display:inline-block;padding:.15rem 0}
 @media(max-width:520px){.hero .tri{flex-direction:column;gap:.55em}.hero .tri span+span::before{content:none}}
 @media(max-height:680px){.hero{padding-bottom:calc(2.5rem + env(safe-area-inset-bottom))}.hero .at{position:static;margin-top:2.5rem}}
+
+/* dark variant (landing page): sections below the hero in the FEICHTIQ navy like www.feichtiq.com */
+body.dark{background:var(--navy);color:var(--ice)}
+body.dark section.block .lead,body.dark .app .head .sub,body.dark .links a span,body.dark footer{color:var(--azure)}
+body.dark h2,body.dark h3{color:#fff}
+body.dark .app{background:rgba(30,41,55,.35);border-color:rgba(93,127,160,.28)}
+body.dark .app .icon{box-shadow:0 12px 40px rgba(0,0,0,.45)}
+body.dark .app p{opacity:.92}
+body.dark .app .tags span{color:var(--ice);background:rgba(93,127,160,.22)}
+body.dark .btn.solid{background:#fff;color:var(--navy);border-color:#fff}body.dark .btn.solid:hover{background:var(--ice);border-color:var(--ice)}
+body.dark .btn.quiet{color:var(--ice);border-color:rgba(230,233,236,.55)}body.dark .btn.quiet:hover{background:rgba(255,255,255,.08)}
+body.dark .links a{border-color:rgba(93,127,160,.28);background:rgba(30,41,55,.35)}body.dark .links a:hover{border-color:var(--azure)}
+body.dark footer{border-top-color:rgba(93,127,160,.28)}
